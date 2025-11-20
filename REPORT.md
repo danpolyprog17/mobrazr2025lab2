@@ -618,15 +618,15 @@ git remote add origin <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
 git push -u origin main
 ```
 
-3. Указать здесь ссылку на репозиторий, например:  
-`https://github.com/<ваш-аккаунт>/mobrazr2025lab3`
+3. Ссылка на репозиторий:  
+`https://github.com/danpolyprog17/mobrazr2025lab2`
 
 ### 9. Инструкция по запуску приложения
 
 1. **Клонировать репозиторий:**
 ```bash
-git clone https://github.com/<ваш-аккаунт>/mobrazr2025lab3.git
-cd mobrazr2025lab3
+git clone https://github.com/danpolyprog17/mobrazr2025lab2.git
+cd mobrazr2025lab2
 ```
 
 2. **Установить зависимости:**
