@@ -1,0 +1,24 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env DATABASE_URL=\"postgresql://neondb_owner:npg_W8KC1GJjmRIy@ep-blue-cake-abtejvo4-pooler.eu-west-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require\" node server.js",
+    "start": "cross-env DATABASE_URL=\"postgresql://neondb_owner:npg_W8KC1GJjmRIy@ep-blue-cake-abtejvo4-pooler.eu-west-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require\" node server.js",
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "prisma": "^6.19.0"
+  }
+}
